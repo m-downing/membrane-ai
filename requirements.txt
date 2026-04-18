@@ -1,0 +1,4 @@
+anthropic>=0.40.0
+sentence-transformers>=3.0.0
+numpy>=1.26.0
+neo4j>=5.14.0

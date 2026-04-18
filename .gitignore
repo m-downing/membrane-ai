@@ -1,0 +1,24 @@
+# Fact stores (runtime state)
+facts.json
+test_facts.json
+*.facts.json
+
+# Transient benchmark outputs — only results/ is tracked
+/*.json
+!/results/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Dataset — fetched via scripts/fetch_dataset.sh
+benchmarks/data/longmemeval_s_cleaned.json
